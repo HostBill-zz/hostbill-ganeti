@@ -1,0 +1,3 @@
+[submodule "includes/modules/Hosting/ganeti/lib/php-ganeti-rapi"]
+	path = includes/modules/Hosting/ganeti/lib/php-ganeti-rapi
+	url = https://github.com/GarageDeveloper/php-ganeti-rapi.git
