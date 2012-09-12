@@ -84,7 +84,10 @@ class ganeti extends HostingModule {
         if($this->connection['username']!='') {
             try {
                 $cli = new ganeti\rapi\GanetiRapiClient(
-                            $this->connection['ip']
+                            $this->connection['ip'],
+                            $this->connection['port'],
+                            $this->connection['username'],
+                            $this->connection['password']
                             );
                 $rapiVersion = $cli->getVersion();
                 $this->addInfo('RAPI version is:'.$rapiVersion);
