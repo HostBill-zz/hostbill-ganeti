@@ -1,3 +1,6 @@
 *
-!includes/modules/Hosting/ganeti/*
+!includes/
+!includes/modules/
+!includes/modules/Hosting/
+!includes/modules/Hosting/ganeti/
 !.gitignore
